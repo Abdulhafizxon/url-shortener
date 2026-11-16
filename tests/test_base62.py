@@ -1,6 +1,6 @@
 import pytest
 
-from main import decode, encode
+from base62 import decode, encode
 
 
 @pytest.mark.parametrize("number", [0, 1, 61, 62, 63, 3843, 3844, 10**9, 2**40])
