@@ -6,6 +6,6 @@ class LinkCreate(BaseModel):
 
 
 class LinkOut(BaseModel):
-    code: str | None
+    code: str
     short_url: str
     original_url: str
